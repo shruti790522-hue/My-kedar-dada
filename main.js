@@ -192,7 +192,7 @@ $$("[data-close]").forEach(b => b.addEventListener("click", () => { $$(".modal")
 /* ---------- 6. memories ---------- */
 const bannerColors = ["#8a0f2a", "#c8102e", "#e8501f", "#b5123e", "#d9457d", "#f2a65a", "#7a1030", "#a3112c"];
 $("#banner").innerHTML = "MEMORIES".split("").map((c, i) => `<span style="background:${bannerColors[i]};--r:${(i % 3 - 1) * 4}deg">${c}</span>`).join("");
-$("#track").innerHTML = MEMORIES.map((m, i) => `<div class="polaroid" style="--r:${(i % 3 - 1) * 3}deg"><img src="My-kedar-dada/IMG-20261030-WA0164.jpg at main · shruti790522-hue/My-kedar-dada https://share.google/iDns5aQh9jQ3JfrKc" alt=""><p>${m[1]}</p></div>`).join("");
+$("#track").innerHTML = MEMORIES.map((m, i) => `<div class="polaroid" style="--r:${(i % 3 - 1) * 3}deg"><img src="IMG-20261030-WA0164.jpg" alt=""><p>${m[1]}</p></div>`).join("");
 let pos = 0;
 function slide() { $("#track").style.transform = `translateX(${-pos * 176}px)`; }
 $("#next").addEventListener("click", () => { pos = Math.min(pos + 1, MEMORIES.length - 3 > 0 ? MEMORIES.length - 3 : 0); slide(); });
