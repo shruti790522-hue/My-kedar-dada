@@ -134,7 +134,7 @@ function submitCode() {
   if (code === PASSCODE) { confetti(100); show("ask"); return; }
   $("#lock").classList.add("wrong");
   $("#lockImg").src = stickerSrc("wrong");
-  $("#lockMsg").textContent = "Oops! Wrong Passcode! Try again, cutie! 😘";
+  $("#lockMsg").textContent = "Oops! Wrong Passcode! Try again, bhai! 😘";
   $("#boxes").classList.add("shake"); setTimeout(() => $("#boxes").classList.remove("shake"), 500);
 }
 $("#keys").addEventListener("click", e => {
