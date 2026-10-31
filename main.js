@@ -17,9 +17,9 @@ const STICKERS = {
 const MEMORIES = [   // add/remove freely: [image or null, caption]
   [null, "Make Make Cake! 🎂"],
   [null, "Best Peanuts & Gift 🎁"],
-  [null, "Best Friend Dinners 💗"],
+  [null, "Your favourite Dinners 💗"],
   [null, "Make A Wish ✨"],
-  [null, "Secret Agent & Pup 🐶"]
+  [null, "i love you bhai 🩷"]
 ];
 const LETTER = [
   "Happy birthday to my bhai 🤍",
